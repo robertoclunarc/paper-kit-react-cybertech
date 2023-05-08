@@ -39,10 +39,8 @@ import SectionDark from "views/index-sections/SectionDark.js";
 import SectionLogin from "views/index-sections/SectionLogin.js";
 import SectionExamples from "views/index-sections/SectionExamples.js";
 import SectionDownload from "views/index-sections/SectionDownload.js";
-import SectionServicios from "./SectionServicios/SectionServicio";
-import SectionContatenos from "./SectionContactenos/SectionContatenos";
 
-function Index() {
+function IndexTemplate() {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
     document.body.classList.add("index");
@@ -55,25 +53,23 @@ function Index() {
       <IndexNavbar />
       <IndexHeader />
       <div className="main">
-        {/* <SectionButtons /> */}
-        {/* <SectionNavbars /> */}
-        {/* <SectionNavigation /> */}
-        {/* <SectionProgress /> */}
-        {/* <SectionNotifications /> */}
-        {/* <SectionTypography /> */}
-        {/* <SectionJavaScript /> */}
-        {/* <SectionCarousel /> */}
-        {/* <SectionNucleoIcons /> */}
-        <SectionServicios />
-       {/*  <SectionDark /> */}
-        {/* <SectionLogin /> */}
-        <SectionContatenos/>
-        {/* <SectionExamples /> */}
-        {/* <SectionDownload /> */}
-        {/*<DemoFooter />  */}
+        <SectionButtons />
+        <SectionNavbars />
+        <SectionNavigation />
+        <SectionProgress />
+        <SectionNotifications />
+        <SectionTypography />
+        <SectionJavaScript />
+        <SectionCarousel />
+        <SectionNucleoIcons />
+        <SectionDark />
+        <SectionLogin />
+        <SectionExamples />
+        <SectionDownload />
+        <DemoFooter />
       </div>
     </>
   );
 }
 
-export default Index;
+export default IndexTemplate;

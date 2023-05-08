@@ -26,6 +26,7 @@ import "assets/scss/paper-kit.scss?v=1.3.0";
 import "assets/demo/demo.css?v=1.3.0";
 // pages
 import Index from "views/Index.js";
+import IndexTemplate from "views/index-template";
 import NucleoIcons from "views/NucleoIcons.js";
 import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
@@ -38,6 +39,7 @@ root.render(
   <BrowserRouter>
     <Switch>
       <Route path="/index" render={(props) => <Index {...props} />} />
+      <Route path="/index-template" render={(props) => <IndexTemplate {...props} />} />
       <Route
         path="/nucleo-icons"
         render={(props) => <NucleoIcons {...props} />}
