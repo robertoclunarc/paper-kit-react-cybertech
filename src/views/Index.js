@@ -23,10 +23,10 @@ import React from "react";
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+//import DemoFooter from "components/Footers/DemoFooter.js";
 
 // index sections
-import SectionButtons from "views/index-sections/SectionButtons.js";
+/*import SectionButtons from "views/index-sections/SectionButtons.js";
 import SectionNavbars from "views/index-sections/SectionNavbars.js";
 import SectionNavigation from "views/index-sections/SectionNavigation.js";
 import SectionProgress from "views/index-sections/SectionProgress.js";
@@ -40,7 +40,8 @@ import SectionLogin from "views/index-sections/SectionLogin.js";
 import SectionExamples from "views/index-sections/SectionExamples.js";
 import SectionDownload from "views/index-sections/SectionDownload.js";
 import SectionServicios from "./SectionServicios/SectionServicio";
-import SectionContatenos from "./SectionContactenos/SectionContatenos";
+import SectionContatenos from "./SectionContactenos/SectionContatenos";*/
+import SectionPoliticasPrivacidad from "./SectionPoliticasPrivacidad/SectionPoliticasPrivacidad";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -64,10 +65,10 @@ function Index() {
         {/* <SectionJavaScript /> */}
         {/* <SectionCarousel /> */}
         {/* <SectionNucleoIcons /> */}
-        <SectionServicios />
+        <SectionPoliticasPrivacidad/>
        {/*  <SectionDark /> */}
         {/* <SectionLogin /> */}
-        <SectionContatenos/>
+       
         {/* <SectionExamples /> */}
         {/* <SectionDownload /> */}
         {/*<DemoFooter />  */}

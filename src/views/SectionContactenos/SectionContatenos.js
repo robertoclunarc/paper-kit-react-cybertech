@@ -47,7 +47,7 @@ function SectionContatenos() {
           <Row>
             <Col className="mx-auto" lg="4" md="6">
               <Card className="card-register">
-                <h3 className="title mx-auto">Contatenos</h3>
+                <h3 className="title mx-auto">Contactenos</h3>
                 <div className="social-line text-center">
                   <Button
                     className="btn-neutral btn-just-icon mt-0"
@@ -88,7 +88,7 @@ function SectionContatenos() {
                   <InputGroup className="form-group-no-border">
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText>
-                        <i className="nc-icon nc-key-25" />
+                        <i className="nc-icon nc-badge" />
                       </InputGroupText>
                     </InputGroupAddon>
                     <Input placeholder="Nombre" type="text" />
@@ -97,20 +97,21 @@ function SectionContatenos() {
                   <InputGroup className="form-group-no-border">
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText>
-                        <i className="nc-icon nc-key-25" />
+                        <i className="nc-icon nc-layout-11" />
                       </InputGroupText>
                     </InputGroupAddon>
                     <Input placeholder="Telefono" type="text" />
                   </InputGroup>
                   <label>Descripcion</label>
-                  <InputGroup className="form-group-no-border">
-                    <InputGroupAddon addonType="prepend">
-                      <InputGroupText>
-                        <i className="nc-icon nc-key-25" />
-                      </InputGroupText>
-                    </InputGroupAddon>
-                    <Input placeholder="Descripcion" type="text" />
-                  </InputGroup>
+                  
+                  <div class="form-horizontal">
+                      <div class="form-group">
+                          <div class="col-md-14">
+                              <textarea class="form-control" rows="3" placeholder="What's up?" required></textarea>
+                          </div>
+                      </div>
+                  </div>
+                  
                   <Button
                     block
                     className="btn-round"
